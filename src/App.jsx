@@ -10,7 +10,7 @@ function App() {
         </p>
       </header>
       <main>
-        <h2>Time to get started! And I am luka</h2>
+        <h2>Time to get started! And I am </h2>
       </main>
     </div>
   );
