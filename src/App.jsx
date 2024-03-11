@@ -6,7 +6,7 @@ const reactDescriptions = ['Fundamental', 'Crucial', 'Core'];
 function genRandomInt(max) {
   return Math.floor(Math.random() * (max + 1));
 }
-// this is so ez
+
 function Header() {
   const description = reactDescriptions[genRandomInt(2)];
 
