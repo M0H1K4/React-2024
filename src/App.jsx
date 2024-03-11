@@ -22,12 +22,12 @@ function Header() {
   );
 }
 
-function CoreConcept(props) {
+function CoreConcept({image, description,title}) {
   return (
     <li>
-      <img src={props.image} />
-      <h3>{props.title}</h3>
-      <p>{props.description}</p>
+      <img src={image} />
+      <h3>{title}</h3>
+      <p>{description}</p>
     </li>
   );
 }
@@ -43,8 +43,7 @@ function App() {
             <CoreConcept {...CORE_CONCEPTS[0]} />
             <CoreConcept {...CORE_CONCEPTS[1]} />
             <CoreConcept {...CORE_CONCEPTS[2]} />
-            <CoreConcept {...CORE_CONCEPTS[3]} />
-            
+            <CoreConcept {...CORE_CONCEPTS[3]} />   
           </ul>
         </section>
       </main>
