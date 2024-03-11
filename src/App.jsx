@@ -7,6 +7,8 @@ function genRandomInt(max) {
   return Math.floor(Math.random() * (max + 1));
 }
 
+
+
 function Header() {
   const description = reactDescriptions[genRandomInt(2)];
 
