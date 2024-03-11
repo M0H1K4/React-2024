@@ -22,12 +22,12 @@ function Header() {
   );
 }
 
-function CoreConcept() {
+function CoreConcept(props) {
   return (
     <li>
-      <img src="" />
-      <h3>TITLE</h3>
-      <p>Description</p>
+      <img src={props.img} />
+      <h3>{props.title}</h3>
+      <p>{props.description}</p>
     </li>
   );
 }
