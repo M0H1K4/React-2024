@@ -30,6 +30,8 @@ function CoreConcept({image, description,title}) {
       <p>{description}</p>
     </li>
   );
+
+  
 }
 
 function App() {
