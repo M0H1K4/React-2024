@@ -33,7 +33,7 @@ function CoreConcept({image, description,title}) {
 
   
 }
-
+////  ალსჯკდნალსჯკდნალსკდნ
 function App() {
   return (
     <div>
